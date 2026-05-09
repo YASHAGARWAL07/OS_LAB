@@ -1,0 +1,16 @@
+To add the current working directory to the bash environment:
+
+1. Open terminal
+2. Edit .bashrc file
+
+nano ~/.bashrc
+
+3. Add the following line
+
+export PATH=$PATH:$(pwd)
+
+4. Save and reload bashrc
+
+source ~/.bashrc
+
+Now the current working directory is added to PATH and programs can be executed directly.
