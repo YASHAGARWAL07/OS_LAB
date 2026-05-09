@@ -11,8 +11,15 @@ This repository contains my Operating System lab programs, assignments, and prac
 - Page Replacement Algorithms
 - Disk Scheduling
 - Multithreading
+- Pipes and IPC
+- Shared Memory
+- Process Communication
+- Data Sharing Between Processes
+- Connection Establishment Between Two Systems Using IP Addresses
+- Client-Server Communication
+- Socket Programming
+- Linux System Calls
 - Shell Scripting
-- System Calls
 - Linux Programming
 
 ## Technologies Used
