@@ -1,38 +1,73 @@
-# OS Lab Codes
+# OS Lab
 
-This repository contains my Operating System lab programs, assignments, and practice codes implemented during my B.Tech Computer Science coursework.
+My Operating Systems lab work in C, C++, and Bash — programs, assignments, and practice code from my B.Tech CS coursework. I keep it here to stay organized and track progress as the semester goes. Mostly for my own reference, but feel free to look around.
 
-## Topics Covered
+Everything runs on Ubuntu Linux. Most files have comments explaining what the program does and the idea behind it.
 
-- CPU Scheduling Algorithms
-- Process Synchronization
-- Deadlock Handling
-- Memory Management
-- Page Replacement Algorithms
-- Disk Scheduling
-- Multithreading
-- Pipes and IPC
-- Shared Memory
-- Process Communication
-- Data Sharing Between Processes
-- Connection Establishment Between Two Systems Using IP Addresses
-- Client-Server Communication
-- Socket Programming
-- Linux System Calls
-- Shell Scripting
-- Linux Programming
+## Structure
 
-## Technologies Used
+```text
+OS_LAB/
+│
+├── CPU_Scheduling/        # FCFS, SJF, Priority, Round Robin
+├── Synchronization/       # producer-consumer, readers-writers, semaphores
+├── Deadlock/              # detection & avoidance (Banker's algorithm)
+├── Memory_Management/     # allocation strategies, paging
+├── Page_Replacement/      # FIFO, LRU, Optimal
+├── Disk_Scheduling/       # FCFS, SCAN, C-SCAN, SSTF
+│
+├── Threads/               # multithreading with pthreads
+├── IPC/                   # pipes, message passing
+├── Shared_Memory/         # shared memory segments
+├── Sockets/               # client-server, socket programming
+│
+├── System_Calls/          # Linux system calls
+├── Shell_Scripts/         # bash scripting
+└── README.md
+```
 
-- C
-- C++
-- Bash
-- Ubuntu Linux
+## What's in here — a quick tour
 
-## Purpose
+**CPU scheduling.** The classic algorithms — FCFS, SJF, priority, and round robin — with the usual waiting-time and turnaround-time calculations.
 
-The purpose of this repository is to maintain all OS lab work in an organized manner and track progress using Git and GitHub.
+**Synchronization.** Process synchronization problems like producer-consumer and readers-writers, solved using semaphores and mutexes.
 
----
+**Deadlock.** Handling deadlocks through detection and avoidance, including the Banker's algorithm.
 
-Author: Yash Agarwal
+**Memory.** Memory management strategies and paging, plus the page replacement algorithms — FIFO, LRU, and Optimal.
+
+**Disk scheduling.** Head-movement algorithms — FCFS, SSTF, SCAN, and C-SCAN.
+
+**Concurrency & IPC** — the systems-programming side:
+- Multithreading using pthreads
+- Inter-process communication through pipes and message passing
+- Shared memory between processes
+- Socket programming for client-server communication, including connecting two systems over IP
+
+**Linux programming.** Working with Linux system calls and shell scripting in Bash.
+
+## Running the code
+
+C and C++ programs:
+
+```bash
+gcc filename.c -o out          # add -lpthread for threaded programs
+./out
+```
+
+Shell scripts:
+
+```bash
+bash script.sh
+```
+
+## Tech
+
+C · C++ · Bash · Ubuntu Linux
+
+## Links
+
+- GitHub — [YASHAGARWAL07](https://github.com/YASHAGARWAL07)
+- LinkedIn — [Yash Agarwal](https://www.linkedin.com/in/yash-agarwal0007/)
+- LeetCode — [YASH_AGARWAL_07](https://leetcode.com/u/YASH_AGARWAL_07/)
+- GeeksforGeeks — [yashagarwal07](https://www.geeksforgeeks.org/profile/yashagarwal07)
